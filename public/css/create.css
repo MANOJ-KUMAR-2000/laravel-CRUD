@@ -1,0 +1,11 @@
+.create-page {
+    height: 100vh;
+    padding-top: 64px;
+}
+
+.create-page h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Cambria";
+    margin-bottom: 36px;
+}

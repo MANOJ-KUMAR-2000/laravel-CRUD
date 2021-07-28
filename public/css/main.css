@@ -1,0 +1,83 @@
+.ulogin,
+.uregister,
+.uverify {
+    margin-top: 64px;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.home-main-con {
+    padding: 64px 0;
+}
+
+.home-main-con h2 {
+    border-bottom: 3px solid;
+    font-family: "Cambria";
+    text-align: center;
+    font-size: 36px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 36px;
+}
+
+.home-main-con .note-div {
+    padding: 16px;
+    box-shadow: -1px 2px 6px 1px rgba(0, 0, 0, 0.24);
+    margin: 16px;
+}
+
+.home-main-con .card-topic h3 {
+    font-family: "Cambria";
+    text-transform: uppercase;
+    font-size: 28px;
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
+.home-main-con .card-desc p {
+    font-family: "Poppins";
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(70, 70, 70);
+}
+
+.home-main-con .card-link i:hover {
+    color: rgb(70, 70, 70);
+}
+.home-main-con .card-link i {
+    font-size: 20px;
+    color: black;
+}
+.home-main-con .card-link {
+    display: flex;
+    justify-content: space-around;
+}
+.all-notes-div {
+    margin: 0;
+}
+.home-main-con .no-note {
+    text-align: center;
+    color: rgb(70, 70, 70);
+    font-family: "Cambria";
+    font-size: 22px;
+}
+
+.add-note {
+    padding: 8px 16px;
+    background-color: rgb(70, 70, 70);
+    color: rgb(226, 226, 226);
+
+    position: relative;
+    right: 0px;
+}
+
+.add-note:hover {
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+}

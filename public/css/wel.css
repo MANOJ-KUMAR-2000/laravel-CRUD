@@ -1,0 +1,75 @@
+nav {
+    background-color: rgb(228, 228, 228);
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(rgb(255, 255, 255), rgb(212, 212, 212));
+}
+
+.welcome h5 {
+    margin: 0;
+    text-align: center;
+    font-family: "Adamina";
+    color: rgb(70, 70, 70);
+}
+
+@media (min-width: 992px) {
+    .welcome {
+        height: 88vh;
+    }
+    .welcome h5 > .first {
+        font-size: 72px;
+    }
+    .welcome h5 > .mid {
+        font-size: 122px;
+    }
+    .welcome h5 > .last {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 992px) {
+    .welcome {
+        height: 100vh;
+    }
+    .welcome h5 > .first {
+        font-size: 52px;
+    }
+    .welcome h5 > .mid {
+        font-size: 102px;
+    }
+    .welcome h5 > .last {
+        font-size: 52px;
+    }
+}
+
+.welcome .links {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+.welcome .links a {
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.welcome .links a {
+    color: rgb(216, 216, 216);
+    background-color: rgb(70, 70, 70);
+}
+
+.welcome .links a:hover {
+    color: rgb(70, 70, 70);
+    background-color: rgb(216, 216, 216);
+}
+
+footer {
+    background-color: rgb(228, 228, 228);
+    color: rgb(70, 70, 70);
+    text-align: center;
+}
