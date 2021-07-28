@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="welcome">
+    <img src="/img/add_notes.svg" alt="img" class="bg-img">
     <div class="container">
         <h5>
             <span class="first">MAKE A<br/></span> 
